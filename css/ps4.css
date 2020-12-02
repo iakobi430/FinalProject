@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+header{
+    position: fixed;
+    background-color: white;  
+    width: 100% ;
+    max-height: 80px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    
+    
+   
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    color: black;
+    list-style: none;
+    float: right;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-right: 1rem;
+
+}
+
+li{
+    margin: 1.7rem;
+    display: inline-block;
+    position: relative;
+    top: 0.5rem;
+}
+.logo{
+    margin-left: 2em;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.ps4 :hover{
+    border-bottom: 2px solid blue;
+    transition: 100ms ease-out ;
+    
+
+}
+
+.xbox :hover{
+    border-bottom: 2px solid green;
+    transition: 100ms ease-out ;
+}
+
+.nintendo :hover{
+    border-bottom: 2px solid red;
+    transition: 100ms ease-out ;
+}
+
+.pc :hover{
+    border-bottom: 2px solid black;
+    transition: 100ms ease-out ;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    overflow-x: hidden;
+    
+    
+    
+}
+.ps4-grid{
+    display: grid;
+    grid-template-rows:    repeat(5, 100px);
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 8em;
+    grid-gap: 1%;
+    margin-left: 20em;
+    grid-row-gap: 8em;
+
+
+
+
+
+    
+
+}
+
+.grid-item1{
+    
+    cursor: pointer;
+   
+
+    
+}
+
+.cyberpunk{
+    object-fit: cover;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+.container{
+    width: 1200px;
+}
+
+
+.grid-item2{
+   
+    cursor: pointer;
+
+}
+
+.ghost{
+    object-fit: cover;
+    width: 100%;
+    
+}
+
+.gears{
+    object-fit: cover;
+    width: 100%;
+   
+}
+
+.infamous{
+    object-fit: cover;
+    width: 100%;
+}
+
+.uncharted{
+    object-fit: cover;
+    width: 100%;
+}
+
+.ori{
+    object-fit: cover;
+    width: 100%;
+}
+
+.mount{
+    object-fit: cover;
+    width: 100%;
+}
+
+.last-of-us2{
+    object-fit: cover;
+    width: 100%;
+}
+
+.tekken7{
+    object-fit: cover;
+    width: 100%;
+}
+
+.reddeadredemption2{
+    object-fit: cover;
+    width: 100%;
+}
+
+.horizon{
+    object-fit: cover;
+    width: 100%;
+}
+
+.bloodborne{
+    object-fit: cover;
+    width: 100%;
+}
+
+.squadrons{
+    object-fit: cover;
+    width: 100%;
+}
+
+.grid-item1 :hover{
+    transform: scale(1.2);
+    transition: 300ms ease-out;
+}
+
+.grid-item2 :hover{
+    transform: scale(1.2);
+    transition: 300ms ease-out;
+
+}
+
+.grid-item3 :hover{
+    transform: scale(1.2);
+    transition: 300ms ease-out;
+
+}
+
+.grid-item4 :hover{
+    transform: scale(1.2);
+    transition: 300ms ease-out;
+
+}
+
+.grid-item5 :hover{
+    transform: scale(1.2);
+    transition: 300ms ease-out;
+
+}
+
+.grid-item6 :hover{
+    transform: scale(1.2);
+    transition: 300ms ease-out;
+
+}
+
+.grid-item7 :hover{
+    transform: scale(1.2);
+    transition: 300ms ease-out;
+
+}
+
+.grid-item8 :hover{
+    transform: scale(1.2);
+    transition: 300ms ease-out;
+
+}
+
+.grid-item9 :hover{
+    transform: scale(1.2);
+    transition: 300ms ease-out;
+
+}
+
+.grid-item10 :hover{
+    transform: scale(1.2);
+    transition: 300ms ease-out;
+
+}
+
+.grid-item11 :hover{
+    transform: scale(1.2);
+    transition: 300ms ease-out;
+
+}
+
+.grid-item12 :hover{
+    transform: scale(1.2);
+    transition: 300ms ease-out;
+
+}
+
+.grid-item3, .grid-item4, .grid-item5, .grid-item6, .grid-item7, .grid-item8, .grid-item9, .grid-item10, .grid-item11, .grid-item12{
+    cursor: pointer;
+}

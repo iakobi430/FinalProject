@@ -1,0 +1,539 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    overflow-x: hidden;
+    background-image: linear-gradient(to top, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #fefefe, #fefefe, #fdfdfd, #fdfdfd, #fcfcfc, #fbfbfb);
+}
+    .container{
+    width: 1200px;
+    margin: 0 auto;
+
+
+
+   
+
+        
+    
+            
+        
+    
+
+    
+   
+    
+    
+    
+}
+
+
+header{
+    position: fixed;
+    background-color: white;  
+    width: 100% ;
+    max-height: 80px;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    position: fixed;
+    
+   
+}
+
+ul{
+    color: black;
+    list-style: none;
+    float: right;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-right: 1rem;
+
+}
+
+li{
+    margin: 1.5rem;
+    display: inline-block;
+    position: relative;
+    margin-top: 1.7em;
+    
+}
+.logo{
+   margin-left: 2em;
+
+
+
+    
+    
+}
+
+.h1{
+    color: #c7c9bb;
+    font-size: 40px;
+    position: absolute;
+    bottom: 50%;
+    left: 10%;
+}
+
+
+.img1{
+    object-fit: cover;
+    width: 100%;
+    height: 600px;
+   
+}
+
+#slider{
+    overflow: hidden;
+    margin-top: 8%;
+    
+   
+}
+
+#slider figure{
+    position: relative;
+    display: flex;
+    animation: 15s slider infinite;
+}
+
+#slider figure img{
+    width: 100%;
+}
+
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+
+    20%{
+        left: 0;
+    }
+
+    25%{
+        left: -100%;
+    }
+
+    45%{
+        left: -100%;
+    }
+
+    50%{
+        left: -200%;
+    }
+
+    70%{
+        left: -200%;
+    }
+
+    75%{
+        left: 0;
+    }
+}
+
+
+            
+    
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.ps4 :hover{
+    border-bottom: 2px solid blue;
+    transition: 100ms ease-out ;
+    
+
+}
+
+.xbox :hover{
+    border-bottom: 2px solid green;
+    transition: 100ms ease-out ;
+}
+
+.nintendo :hover{
+    border-bottom: 2px solid red;
+    transition: 100ms ease-out ;
+}
+
+.pc :hover{
+    border-bottom: 2px solid black;
+    transition: 100ms ease-out ;
+}
+
+.ps4-games{
+    width: 100%;
+    margin-top: 10em;
+    margin-left: 15.5em;
+
+    
+
+    
+    
+    
+    
+   
+   
+  
+}
+
+.ps4-title{
+    font-size: 30px;
+    
+    margin-left: 9.2em;
+    width: 1200px;
+    margin-top: -3em;
+    position: absolute;
+}
+
+
+.cyberpunk{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+    
+    
+
+}
+
+
+.demons-souls{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+    
+    
+}
+
+.ps4-container{
+    
+    margin-top: 10em;
+    width: 100%;
+    margin-left: -15em;
+   
+  
+    
+
+}
+
+
+.ghostoftsushima{
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+}
+
+.infamous{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+
+.uncharted{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.game1{
+    margin-right: 1rem;
+    
+}
+
+.game2{
+    margin-right: 1rem;
+}
+
+.game3{
+    margin-right: 1rem;
+}
+
+.game4{
+    margin-right: 1rem;
+}
+
+.xbox-games{
+    margin-top: 20em;
+    margin-left: 1em;
+    width: 100%;
+   
+   
+}
+
+.xbox-title{
+    font-size: 30px;
+    margin-left: 17em;
+    margin-top: -3em;
+    position: absolute;
+    width: 1200px;
+}
+
+.halo5{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.xbox-container{
+    width: 100%;
+    margin-top: 10em;
+    
+    
+    
+   
+   
+}
+
+.sea-of-thieves{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.ori{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.sunset{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.gears5{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.nintendo-title{
+    font-size: 30px;
+    margin-left: 15.7em;
+    margin-top: -3em;
+    position: absolute;
+}
+
+.animal{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.nintendo-container{
+    width: 100%;
+    margin-top: 10em;
+    margin-left: 1.5em;
+    
+    
+    
+
+
+}
+
+.legendofzelda{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.papermario{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.supermario{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.daemon{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+
+.pc-title{
+    margin-left: 18.3em;
+    font-size: 30px;
+    margin-top: -3em;
+    position: absolute;
+}
+
+.disco{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.pc-container{
+    
+    width: 100%;
+    margin-top: 10em;
+    margin-left: 1.5em;
+    
+}
+
+.mount{
+    object-fit: center;
+    width: 100%;
+    height: 200px;
+}
+
+.rimworld{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.guild{
+    object-fit: center;
+    width: 100%;
+    height: 200px;
+}
+
+.arma{
+    object-fit: center;
+    width: 100%;
+    height: 200px;
+}
+
+.game1 :hover{
+    transform: scale(0.9);
+    transition: 100ms;
+    cursor: pointer;
+}
+
+.game2 :hover{
+    transform: scale(0.9);
+    transition: 100ms;
+    cursor: pointer;
+
+}
+
+.game3 :hover{
+    transform: scale(0.9);
+    transition: 100ms;
+    cursor: pointer;
+
+}
+
+.game4 :hover{
+    transform: scale(0.9);
+    transition: 100ms;
+    cursor: pointer;
+
+}
+
+.game5 :hover{
+    transform: scale(0.9);
+    transition: 100ms;
+    cursor: pointer;
+
+}
+
+.nintendo_switch_games{
+    width: 100%;
+    margin-top: 20em;
+}
+
+.pc-games{
+    margin-top: 18em;
+}
+
+@media screen and (max-width:1300px) {
+    .container{
+        margin-left: 30%;
+        width: 1200px
+    }
+    li{
+        font-size: 23px;
+    }
+    ul{
+        margin-top: -1.5em;
+    }
+}
+
+@media screen and (max-width:1300px){
+    .container{
+        margin-left: 30%;
+        width: 1200px
+    }
+    li{
+        font-size: 24px;
+    }
+    ul{
+        margin-top: -0.8em;
+    }
+}
+
+
+@media screen and (max-width:1200px){
+    .container{
+        margin-left: 30%;
+        width: 1200px
+    }
+    li{
+        font-size: 24px;
+    }
+    ul{
+        margin-top: -0.8em;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .container{
+        margin-left: 40%;
+        width: 1200px;
+    }
+    li{
+        font-size: 24px;
+    }
+    ul{
+        margin-top: -0.8em;
+    }
+
+}
+
+@media screen and (max-width:768px){
+    .container{
+        margin-left: 45%;
+        margin-top: 10em;
+        width: 1200px;
+    }
+    li{
+        font-size: 30px;
+    }
+
+    ul{
+        margin-top: -1.5em;
+    }
+
+}
+
+@media screen and (max-width:480px){
+    .container{
+        margin-left: 50%;
+        margin-top: 10em;
+        width: 1200px;
+    }
+    li{
+        font-size: 30px;
+    }
+
+    ul{
+        margin-top: -1.5em;
+    }
+
+}
