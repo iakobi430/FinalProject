@@ -481,7 +481,7 @@ a{
         border-bottom: 1px solid #EAEAEB;
         margin: 0;
         clear: right;
-        font-size: 30px;
+        font-size: 38px;
 
     }
     #toggle:checked + .menu{
@@ -489,7 +489,7 @@ a{
     }
 
     .home{
-        font-size: 35px;
+        font-size: 40px;
         text-align: center;
     }
 
