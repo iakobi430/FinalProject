@@ -9,12 +9,6 @@
 body{
     font-family: 'Roboto Condensed', sans-serif;
     overflow-x: hidden;
-    background-image: linear-gradient(to top, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #fefefe, #fefefe, #fdfdfd, #fdfdfd, #fcfcfc, #fbfbfb);
-}
-    .container{
-    width: 1200px;
-    margin: 0 auto;
-   
 
 
 
@@ -32,6 +26,15 @@ body{
     
     
 }
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+html{
+    background-color: white;
+}
+
 .home{
     text-align: center;
     font-size: 20px;
