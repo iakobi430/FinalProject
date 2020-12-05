@@ -1,0 +1,571 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    overflow-x: hidden;
+    background-image: linear-gradient(to top, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #fefefe, #fefefe, #fdfdfd, #fdfdfd, #fcfcfc, #fbfbfb);
+}
+    .container{
+    width: 1200px;
+    margin: 0 auto;
+   
+
+
+
+   
+
+        
+    
+            
+        
+    
+
+    
+   
+    
+    
+    
+}
+.home{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.nav{
+    border-bottom: 1px solid #EAEAEB;
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+}
+.menu{
+    margin: 0 30px 0 0;
+}
+.menu a{
+    margin: 0 10px;
+    line-height: 70px;
+}
+
+label{
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+
+#toggle{
+    display: none;
+}
+.h1{
+    color: #c7c9bb;
+    font-size: 40px;
+    position: absolute;
+    bottom: 50%;
+    left: 10%;
+}
+
+
+.img1{
+    object-fit: cover;
+    width: 100%;
+    height: 600px;
+   
+}
+
+#slider{
+    overflow: hidden;
+    margin-top: 8%;
+    
+   
+}
+
+#slider figure{
+    position: relative;
+    display: flex;
+    animation: 15s slider infinite;
+}
+
+#slider figure img{
+    width: 100%;
+}
+
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+
+    20%{
+        left: 0;
+    }
+
+    25%{
+        left: -100%;
+    }
+
+    45%{
+        left: -100%;
+    }
+
+    50%{
+        left: -200%;
+    }
+
+    70%{
+        left: -200%;
+    }
+
+    75%{
+        left: 0;
+    }
+}
+
+
+            
+    
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.ps4 :hover{
+    border-bottom: 2px solid blue;
+    transition: 100ms ease-out ;
+    
+
+}
+
+.xbox :hover{
+    border-bottom: 2px solid green;
+    transition: 100ms ease-out ;
+}
+
+.nintendo :hover{
+    border-bottom: 2px solid red;
+    transition: 100ms ease-out ;
+}
+
+.pc :hover{
+    border-bottom: 2px solid black;
+    transition: 100ms ease-out ;
+}
+
+.ps4-games{
+    width: 100%;
+    margin-top: 10em;
+    margin-left: 15.5em;
+
+    
+
+    
+    
+    
+    
+   
+   
+  
+}
+
+.ps4-title{
+    font-size: 30px;
+    
+    margin-left: 9.2em;
+    width: 1200px;
+    margin-top: -3em;
+    position: absolute;
+}
+
+
+.cyberpunk{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+    
+    
+
+}
+
+
+.demons-souls{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+    
+    
+}
+
+.ps4-container{
+    
+    margin-top: 10em;
+    width: 100%;
+    margin-left: -15em;
+   
+  
+    
+
+}
+
+
+.ghostoftsushima{
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+}
+
+.infamous{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+
+.uncharted{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.game1{
+    margin-right: 1rem;
+    
+}
+
+.game2{
+    margin-right: 1rem;
+}
+
+.game3{
+    margin-right: 1rem;
+}
+
+.game4{
+    margin-right: 1rem;
+}
+
+.xbox-games{
+    margin-top: 20em;
+    margin-left: 1em;
+    width: 100%;
+   
+   
+}
+
+.xbox-title{
+    font-size: 30px;
+    margin-left: 17em;
+    margin-top: -3em;
+    position: absolute;
+    width: 1200px;
+}
+
+.halo5{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.xbox-container{
+    width: 100%;
+    margin-top: 10em;
+    
+    
+    
+   
+   
+}
+
+.sea-of-thieves{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.ori{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.sunset{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.gears5{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.nintendo-title{
+    font-size: 30px;
+    margin-left: 15.7em;
+    margin-top: -3em;
+    position: absolute;
+    width: 1200px;
+}
+
+.animal{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.nintendo-container{
+    width: 100%;
+    margin-top: 10em;
+    margin-left: 1.5em;
+    
+    
+    
+
+
+}
+
+.legendofzelda{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.papermario{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.supermario{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.daemon{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+
+.pc-title{
+    margin-left: 18.3em;
+    font-size: 30px;
+    margin-top: -3em;
+    position: absolute;
+    width: 1200px;
+}
+
+.disco{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.pc-container{
+    
+    width: 100%;
+    margin-top: 10em;
+    margin-left: 1.5em;
+    
+}
+
+.mount{
+    object-fit: center;
+    width: 100%;
+    height: 200px;
+}
+
+.rimworld{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.guild{
+    object-fit: center;
+    width: 100%;
+    height: 200px;
+}
+
+.arma{
+    object-fit: center;
+    width: 100%;
+    height: 200px;
+}
+
+.game1 :hover{
+    transform: scale(0.9);
+    transition: 100ms;
+    -webkit-transform: scale(0.9);
+    -webkit-transition: 100ms;
+ 
+    cursor: pointer;
+}
+
+.game2 :hover{
+    transform: scale(0.9);
+    transition: 100ms;
+   -webkit-transform: scale(0.9);
+   -webkit-transition: 100ms;
+    cursor: pointer;
+
+}
+
+.game3 :hover{
+    transform: scale(0.9);
+    transition: 100ms;
+    -webkit-transform: scale(0.9);
+    -webkit-transition: 100ms;
+ 
+    cursor: pointer;
+
+}
+
+.game4 :hover{
+    transform: scale(0.9);
+    transition: 100ms;
+    -webkit-transform: scale(0.9);
+    -webkit-transition: 100ms;
+ 
+    cursor: pointer;
+
+}
+
+.game5 :hover{
+    transform: scale(0.9);
+    transition: 100ms;
+    -webkit-transform: scale(0.9);
+    -webkit-transition: 100ms;
+ 
+    cursor: pointer;
+
+}
+
+.nintendo_switch_games{
+    width: 100%;
+    margin-top: 20em;
+}
+
+.pc-games{
+    margin-top: 18em;
+}
+
+
+@media only screen and (max-width:500px){
+
+    label{
+        display: block;
+        cursor: pointer;
+    }
+    .menu{
+        text-align: center;
+        width: 100%;
+        display: none;
+        
+    }
+
+    .menu a{
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+        clear: right;
+        font-size: 30px;
+
+    }
+    #toggle:checked + .menu{
+        display: block;
+    }
+
+    .home{
+        font-size: 35px;
+        text-align: center;
+    }
+
+        
+        
+    
+    figure{
+        width: 1200px;
+       
+
+
+    }
+    #slider{
+        width: 1200px;
+        margin-top: 8em;
+        
+    }
+
+}
+
+@media only screen and (max-width:1200px){
+
+    .container{
+        margin-left: 15em;
+       
+    }
+    .menu{
+        font-size: 25px;
+    }
+
+
+    
+}
+
+@media only screen and (max-width:768px){
+
+    label{
+        display: block;
+        cursor: pointer;
+    }
+    .menu{
+        text-align: center;
+        width: 100%;
+        display: none;
+        font-size: 30px;
+    }
+
+    .menu a{
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+        clear: right;
+
+    }
+    #toggle:checked + .menu{
+        display: block;
+    }
+
+        
+        
+    
+    .container{
+        width: 1200px;
+        margin-left: 2.5em;
+        
+    }
+    figure{
+        width: 1200px;
+        margin-top: 15em;
+
+ }
+
+}
+
+@media only screen and (max-width:1500px){
+
+    .menu{
+        font-size: 21px;
+    }
+
+
+}
