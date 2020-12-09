@@ -50,6 +50,9 @@ a{
 body{
     font-family: 'Roboto Condensed', sans-serif;
     overflow-x: hidden;
+    -moz-animation:transitionIn  0.95s;
+    animation: transitionIn 0.95s;
+
     
     
     
@@ -281,3 +284,28 @@ body{
         width: 100%;
     }
 }
+
+@keyframes transitionIn{
+    from{
+        opacity: 0;
+        transform: rotateY(-10deg);
+    }
+    
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+@-moz-keyframes transitionIn{
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
