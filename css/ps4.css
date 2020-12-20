@@ -241,6 +241,7 @@ body{
     label{
         display: block;
         cursor: pointer;
+        margin-top: -2.7em;
     }
     .menu{
         text-align: center;
@@ -261,7 +262,9 @@ body{
     .ps4-grid{
         width: 100%;
         margin-left: -1.5%;
-        margin-top: 22em;
+        margin-top: 19em;
+        grid-row-gap: 3em;
+
         
     }
     .container{

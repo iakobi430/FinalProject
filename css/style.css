@@ -1,4 +1,13 @@
  @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&display=swap');
+
+
+
+html{
+    
+  
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -11,8 +20,9 @@ body{
     -moz-animation:transitionIn  0.95s;
     animation: transitionIn 0.95s;
     
-
-
+    
+    
+    
 
 
    
@@ -35,6 +45,9 @@ body{
     margin: 0 auto;
     -moz-animation:transitionIn  0.95s;
     animation: transitionIn 0.95s;
+    
+  
+      
     
 
 
@@ -61,10 +74,13 @@ body{
     height: 70px;
     line-height: 70px;
     
+    
+    
 }
 .menu{
     margin: 0 0 0 0 0;
     font-size: 15px;
+
     
    
     
@@ -74,6 +90,7 @@ body{
     
     margin: 0 39px;
     line-height: 70px;
+    
     
 }
 
@@ -100,12 +117,15 @@ label{
 .img1{
     object-fit: cover;
     width: 100%;
+
+
     
    
 }
 
 #slider{
     overflow: hidden;
+    
     
     
     
@@ -118,11 +138,13 @@ label{
     display: flex;
     animation: 15s slider infinite;
     
+    
    
 }
 
 #slider figure img{
     width: 100%;
+    
 }
 
 @keyframes slider{
@@ -172,6 +194,9 @@ a{
     margin-left: 15.5em;
     -moz-animation:transitionIn  0.95s;
     animation: transitionIn 0.95s;
+   
+
+
     
 
 
@@ -424,27 +449,27 @@ a{
 
 .game1 :hover{
     transform: scale(0.9);
-    transition: 100ms;
+    transition: 200ms;
     -webkit-transform: scale(0.9);
-    -webkit-transition: 100ms;
+    -webkit-transition: 200ms;
  
     cursor: pointer;
 }
 
 .game2 :hover{
     transform: scale(0.9);
-    transition: 100ms;
+    transition: 200ms;
    -webkit-transform: scale(0.9);
-   -webkit-transition: 100ms;
+   -webkit-transition: 200ms;
     cursor: pointer;
 
 }
 
 .game3 :hover{
     transform: scale(0.9);
-    transition: 100ms;
+    transition: 200ms;
     -webkit-transform: scale(0.9);
-    -webkit-transition: 100ms;
+    -webkit-transition: 200ms;
  
     cursor: pointer;
 
@@ -452,9 +477,9 @@ a{
 
 .game4 :hover{
     transform: scale(0.9);
-    transition: 100ms;
+    transition: 200ms;
     -webkit-transform: scale(0.9);
-    -webkit-transition: 100ms;
+    -webkit-transition: 200ms;
  
     cursor: pointer;
 
@@ -462,9 +487,9 @@ a{
 
 .game5 :hover{
     transform: scale(0.9);
-    transition: 100ms;
+    transition: 200ms;
     -webkit-transform: scale(0.9);
-    -webkit-transition: 100ms;
+    -webkit-transition: 200ms;
  
     cursor: pointer;
 
@@ -544,15 +569,26 @@ a{
 
 @media only screen and (max-width:768px){
 
+    html{
+        width: 100%;
+    }
+    
     label{
         display: block;
         cursor: pointer;
+        font-size: 60px;
+        position: relative;
+        left: -1em;
+        
+        
+        
     }
     .menu{
         text-align: center;
         width: 100%;
         display: none;
         font-size: 30px;
+        
     }
 
     .menu a{
@@ -571,7 +607,7 @@ a{
     
     .container{
         width: 1200px;
-        margin-left: 2.5em;
+        margin: 0 auto;
         
         
     }
@@ -588,15 +624,15 @@ a{
     }
     
     .xbox-title{
-        margin-left: 13em
+        margin-left: 13em;
     }
     
     .nintendo-title{
-        margin-left: 14em
+        width: 1200px;
     }
     
     .pc-title{
-        margin-left: 14em
+        margin-left: 14em;
     }
 
 }
