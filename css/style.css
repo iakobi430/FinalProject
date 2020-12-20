@@ -578,7 +578,8 @@ a{
         cursor: pointer;
         font-size: 60px;
         position: relative;
-        left: -1em;
+        left: 1em;
+        top: 1em;
         
         
         
@@ -588,6 +589,7 @@ a{
         width: 100%;
         display: none;
         font-size: 30px;
+        
         
     }
 
@@ -606,33 +608,54 @@ a{
         
     
     .container{
-        width: 1200px;
+        width: 950px;
         margin: 0 auto;
         
         
     }
     figure{
-        width: 1200px;
+        width: 100%;
+        
        }
     
     #slider{
         margin-top: 25em;
+        width: 100%;
+        margin-left: 5em
+        
     }
     
     .ps4-title{
-        margin-left: 5em;
+        margin-left: 2em;
     }
     
     .xbox-title{
-        margin-left: 13em;
+        margin-left: 10em;
     }
     
     .nintendo-title{
         width: 1200px;
+        margin-left: -3em;
     }
     
     .pc-title{
-        margin-left: 14em;
+        margin-left: 10.2em;
+    }
+    
+    .ps4-games{
+        margin-left: 20.5em;
+
+    }
+    .xbox-games{
+        margin-left: 6.5em;
+    }
+    .nintendo_switch_games{
+        margin-left: 5em;
+    }
+    
+    .pc-games{
+        margin-left: 5.5em;
+        width: 100%;
     }
 
 }
