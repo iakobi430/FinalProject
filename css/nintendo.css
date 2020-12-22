@@ -244,11 +244,11 @@ label{
     .nintendo-grid{
         margin-left: -0.5%;
         margin-top: 22em;
-         grid-template-rows:    repeat(5, 100px);
+        grid-template-rows:    repeat(2, 100px);
         grid-template-columns: repeat(2, 1fr);
         margin-top: 18em;
         grid-gap: 1%;
-        grid-row-gap: 5em;
+        grid-row-gap: 2em;
         
     }
     .container{
