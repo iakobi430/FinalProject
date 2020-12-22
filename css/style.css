@@ -549,6 +549,10 @@ a{
         margin-top: 8em;
         
     }
+    .container{
+        width: 100%;
+        
+    }
     
 
 }
@@ -578,10 +582,15 @@ a{
         cursor: pointer;
         font-size: 60px;
         position: relative;
-        left: 1em;
-        top: 1em;
+        left: 2em;
+        top: 0.5em;
         
         
+        
+    }
+    .nav{
+       margin-left: 7em;
+        margin-top: 2em;
         
     }
     .menu{
@@ -607,6 +616,12 @@ a{
         
         
     
+    .container{
+        width: 950px;
+        margin: 0 auto;
+        
+        
+    }
     .container{
         width: 950px;
         margin: 0 auto;
@@ -657,7 +672,6 @@ a{
         margin-left: 5.5em;
         width: 100%;
     }
-
 }
 
 @media only screen and (max-width:1500px){
